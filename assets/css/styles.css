@@ -658,6 +658,7 @@ a {
 }
 
 .feedback .image .avt:nth-child(1) {
+    object-fit: cover;
     position: absolute;
     top: 258px;
     left: 0px;
@@ -668,6 +669,7 @@ a {
 }
 
 .feedback .image .avt:nth-child(2) {
+    object-fit: cover;
     position: absolute;
     top: 0px;
     left: 144px;
@@ -678,6 +680,7 @@ a {
 }
 
 .feedback .image .avt:nth-child(3) {
+    object-fit: cover;
     position: absolute;
     bottom: 0px;
     left: 212px;
@@ -688,6 +691,7 @@ a {
 }
 
 .feedback .image .avt:nth-child(4) {
+    object-fit: cover;
     position: absolute;
     bottom: 139px;
     left: 273px;
@@ -698,6 +702,7 @@ a {
 }
 
 .feedback .image .avt:nth-child(5) {
+    object-fit: cover;
     position: absolute;
     top: 360px;
     right: 32px;
@@ -708,6 +713,7 @@ a {
 }
 
 .feedback .image .avt:nth-child(6) {
+    object-fit: cover;
     position: absolute;
     top: 19px;
     right: 0px;
