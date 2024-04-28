@@ -1,0 +1,309 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: Poppins, sans-serif;
+}
+
+/*C */
+.main-content {
+    width: 1170px;
+    max-width: calc(1170px - 48px);
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.pixel {
+    position: sticky;
+    top: -40px;
+    z-index: 1;
+}
+
+/* Header navbar*/
+.header {
+    background-color: #fff;
+    padding: 52px 0 12px;
+}
+
+.header .nav {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.header .nav .list {
+    display: flex;
+}
+
+.nav .list a {
+    padding: 10px 19px;
+    color: #2f3a3b;
+    text-align: center;
+    display: inline-block;
+}
+
+.nav .list a:hover {
+    font-weight: 600;
+}
+
+.nav .list a::before {
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    display: block;
+    content: attr(title);
+    font-weight: 600;
+}
+
+.nav .action {
+    display: flex;
+    gap: 0 24px;
+}
+
+.nav .action .btn-sub {
+    cursor: pointer;
+    border: none;
+    font-weight: 400;
+    background: transparent;
+    color: #494949;
+}
+
+.nav .action .btn-sub:hover {
+    font-weight: 600;
+}
+
+.nav .action .btn-sub::before {
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    content: attr(title);
+    font-weight: 600;
+    display: block;
+}
+
+.nav .action .btn-nav {
+    cursor: pointer;
+    color: #1ebfc1;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 6px;
+    background: transparent;
+    min-width: 108px;
+    line-height: 46px;
+    border: 1px solid #1ebfc1;
+}
+
+.nav .action .btn-nav:hover {
+    opacity: 0.9;
+}
+
+/* Hero */
+.hero {
+    padding-top: 38px;
+}
+
+.hero .body {
+    display: flex;
+    align-items: center;
+}
+
+.hero .info .introduce {
+    line-height: 1.77;
+    margin-top: 46px;
+    color: #767e7e;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.hero .info .title {
+    margin-top: 18px;
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.16;
+}
+
+.hero .info .desc {
+    width: 374px;
+    margin-top: 46px;
+    color: #9da6a5;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.78;
+}
+
+.hero .info .desc span {
+    white-space: nowrap;    
+}
+
+.hero .btn-ctn {
+    margin-top: 52px;
+    display: flex;
+    align-items: center;
+    gap: 0 50px;
+}
+
+.hero .btn-ctn .btn {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-radius: 14px;
+    min-width: 186px;
+    line-height: 68px;
+    background: #1ebfc1;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .btn-ctn .btn:hover {
+    opacity: 0.9;
+}
+
+.hero .btn-ctn .play a {
+    width: 62px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.hero .image {
+    position: relative;
+    background: #e0f7f6;
+}
+
+.hero .image .img {
+    width: 576px;
+    height: 631px;
+    object-fit: cover;
+}
+
+.hero .image .courses {
+    position: absolute;
+    top: 149px;
+    right: 459px;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 1.8rem;
+    background: #fefefe;
+    padding: 17px 25px;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+    width: 157px;
+    height: 75px;
+}
+
+.hero .courses .title {
+    line-height: 1.5;
+    width: 55px;
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.hero .courses .icon::before {
+    content: "";
+    width: 2.8rem;
+    height: 0.4rem;
+    background: red;
+    display: inline-block;
+}
+
+.Schedules {
+    position: absolute;
+    bottom: 69px;
+    right: 517px;
+    padding: 16px 25px 23px;
+    border-radius: 24px;
+    display: inline-block;
+    text-align: center;
+    flex-shrink: 0;
+    background: #fff;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.Schedules .title {
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.Schedules .column .icon {
+    margin-top: 12px;
+    display: block;
+}
+
+.Schedules .dash {
+    margin: 16px auto 0;
+    width: 26px;
+    height: 6px;
+    border-radius: 3px;
+    background: #edf1f5;
+}
+
+.hero .join {
+    position: absolute;
+    bottom: 41px;
+    right: 45px;
+    padding: 17px 35px;
+    border-radius: 2.4rem;
+    background: #fefefd;
+    display: inline-block;
+    box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .join .title {
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.hero .join .ground {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.hero .join .avt {
+    background: #1ebfc1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    object-fit: cover;
+    align-items: center;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.hero .join .avt:nth-child(2) {
+    background: #ffc147;
+}
+.hero .join .avt:nth-child(3) {
+    background: #ff947a;
+}
+.hero .join .avt:nth-child(4) {
+    background: #bf83ff;
+}
+
+.hero .join .avt + .avt {
+    margin-left: -7px;
+}
