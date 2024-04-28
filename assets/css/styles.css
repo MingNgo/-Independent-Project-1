@@ -143,7 +143,7 @@ a {
 }
 
 .hero .info .desc span {
-    white-space: nowrap;    
+    white-space: nowrap;
 }
 
 .hero .btn-ctn {
@@ -306,4 +306,94 @@ a {
 
 .hero .join .avt + .avt {
     margin-left: -7px;
+}
+
+/* Features */
+.features {
+    margin-top: 100px;
+    padding: 30px 0;
+}
+
+.features .info {
+    width: 52%;
+}
+
+.features strong {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.features .heading {
+    margin-top: 18px;
+    color: #0d1111;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.33;
+}
+
+.features .desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.features .row-bot {
+    display: flex;
+    margin-top: 80px;
+}
+
+.features .row-bot .item {
+    width: 223px;
+    margin-right: 200px;
+}
+
+.features .row-bot .item:last-child {
+    margin-right: 0px;
+}
+
+.features .row-bot .item:first-child .icon {
+    width: 102px;
+    height: 106px;
+    background: #ffc147;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.features .row-bot .item:nth-child(2) .icon {
+    width: 102px;
+    height: 106px;
+    display: flex;
+    background: #ff947a;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.features .row-bot .item:nth-child(3) .icon {
+    width: 102px;
+    height: 106px;
+    background: #bf83ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.features .row-bot .title {
+    margin-top: 26px;
+    color: #0d1111;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.features .row-bot .desc {
+    color: #9da6a5;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.68;
 }
