@@ -614,7 +614,6 @@ a {
 }
 
 .feedback .name {
-    white-space: break-spaces;
     display: inline-flex;
     align-items: center;
     margin-top: 33px;
@@ -633,6 +632,7 @@ a {
 }
 
 .feedback .name strong {
+    white-space: break-spaces;
     color: #070707;
     font-size: 1.6rem;
     font-weight: 500;
