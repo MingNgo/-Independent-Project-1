@@ -80,6 +80,7 @@ a {
 .nav .action .btn-sub {
     cursor: pointer;
     border: none;
+    font-size: 1.6rem;
     font-weight: 400;
     background: transparent;
     color: #494949;
@@ -178,6 +179,7 @@ a {
 }
 
 .hero .btn-ctn .play a {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     width: 62px;
     height: 62px;
     display: flex;
@@ -488,6 +490,7 @@ a {
 }
 
 .info-courses .title {
+    line-height: 1.5;
     color: #0d1111;
     font-size: 2.2rem;
     font-weight: 700;
@@ -611,6 +614,7 @@ a {
 }
 
 .feedback .name {
+    white-space: break-spaces;
     display: inline-flex;
     align-items: center;
     margin-top: 33px;
